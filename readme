@@ -1,0 +1,33 @@
+# Sistema de Gerenciamento de Inventário
+
+## Descrição
+
+Este projeto é um Sistema de Gerenciamento de Inventário desenvolvido para controlar o estoque de produtos em um armazém. O sistema permite a inserção, consulta, atualização e remoção de registros, garantindo a integridade dos dados relacionados a produtos, categorias e fornecedores.
+
+## Funcionalidades
+
+- Gerenciamento de produtos, categorias e fornecedores.
+- Inserção, consulta, atualização e remoção de registros.
+- Relacionamento entre tabelas utilizando chaves estrangeiras.
+
+## Estrutura do Banco de Dados
+
+- **Categorias**: Armazena as categorias dos produtos.
+- **Fornecedores**: Armazena informações sobre os fornecedores.
+- **Produtos**: Armazena informações sobre os produtos disponíveis no inventário.
+
+## Como Usar
+
+1. Clone este repositório.
+2. Execute o script SQL fornecido para criar o banco de dados e as tabelas.
+3. Insira dados iniciais para testar o sistema.
+4. Utilize os comandos de consulta, atualização e deleção conforme necessário.
+
+## Pré-requisitos
+
+- MySQL ou outro SGBD compatível.
+- Acesso a uma interface de linha de comando ou ferramenta de gerenciamento de banco de dados.
+
+## Licença
+
+Este projeto é licenciado sob a MIT License. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
